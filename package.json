@@ -1,0 +1,12 @@
+{
+  "name": "link-shortener",
+  "version": "0.1.0",
+  "description": "A sample Node link shortener",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "prisma": "^6.9.0"
+  }
+}
