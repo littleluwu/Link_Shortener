@@ -12,7 +12,7 @@ app.use(express.json());
 const PORT = process.env.PORT || 3000;
 
 // Definindo as rotas
-app.use("/short", shortenerRoutes);
+app.use("/shorten", shortenerRoutes);
 app.use("/r", redirectRoutes);
 
 app.listen(PORT, () => {
